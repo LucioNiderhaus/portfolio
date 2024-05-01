@@ -1,3 +1,61 @@
-.Prueba{
-    color: brown;
+h1 {
+    background: linear-gradient(to right, white,whitesmoke,gray);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+  h1:hover {
+    background: linear-gradient(to right, white,whitesmoke,gray);
+    -webkit-background-clip: text;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#sobre-mi{
+    text-align: center;
+    font-size: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.proyecto {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.proyecto h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#pie-final {
+    font-size: 13px;
 }
