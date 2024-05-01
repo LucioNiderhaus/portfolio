@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Consolas, monospace;
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
@@ -36,6 +36,17 @@ body {
     margin-top: 0;
   }
   
+  #sobre-mi h2{
+    text-align: center;
+    margin-left: 140px;
+
+  }
+
+  #habilidades h2{
+    text-align: center;
+    margin-left: 140px;
+  }
+
   .habilidad {
     margin-top: 20px;
   }
@@ -82,4 +93,33 @@ body {
   
   #pie-final {
     font-size: 0.8125rem;
+  }
+  
+  #contacto {
+    font-size: 1.25rem;
+  }
+  #contacto div {
+    display: flex;
+    align-items: center;
+  }
+  
+  #contacto-img1 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  #contacto-img2 {
+    margin-right: 0px;
+  }
+
+  #yo {
+    max-width: 50%; /* Cambia el ancho de la imagen según tus preferencias */
+    height: auto;
+    border-radius: 30%; /* Hace que el borde de la imagen sea circular */
+    float: right; /* Hace que la imagen flote hacia la derecha */
+    margin-left: 0px;
+    margin-top: 10px; /* Añade un margen a la izquierda para separar la imagen del texto */
+  }
+  #parrafo-sobre-mi{
+   flex = 1;
   }
