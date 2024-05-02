@@ -6,6 +6,22 @@
     font-size: 16px;
   }
 
+  section {
+    min-height: 700px;
+  }
+
+  .menu{
+    font-family: Consolas, monospace;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    text-align: left;
+ }
+
+ .menu span:hover {
+  color: whitesmoke; 
+  }
+
   header {
     background-color: #333;
     color: #fff;
@@ -13,12 +29,11 @@
     font-size: 1.25rem;
     text-align: center;
   }
-  
-  #sobre-mi,
+
   #proyectos,
   #habilidades {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
   
   section {
@@ -30,12 +45,30 @@
   }
   
   #sobre-mi h2{
+    font-size: 2.75rem;
     text-align: center;
     margin-left: 140px;
-
+    
+  }
+  
+  #sobre-mi p{
+    float: left;
+    width: 70%;
+    margin-left: 70px;
+    margin-right: 30px;
+    font-size: 1.75rem;
+  }
+  
+  #yo {
+    height: auto;
+    border-radius: 30%;
+    margin-right: 70px; 
+    float: right; 
+    margin-top: 100px;
   }
 
   #habilidades h2{
+    
     text-align: center;
     margin-left: 140px;
   }
@@ -105,10 +138,12 @@
     margin-right: 0px;
   }
 
-  #yo {
-    height: auto;
-    border-radius: 30%; 
-    float: right; 
-    margin-left: 0px;
-    margin-top: 10px;
-  }
+
+.animated {
+  transition: all 0.5s ease;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+}

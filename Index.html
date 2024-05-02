@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="css/Styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Bienvenido a mi portfolio</h1>
+        <div class="menu">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades y Aptitudes</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+
     </header>
     <img id= "yo" src="img/imagen_yo.jpg" alt="Lucio Luque">
     <section id="sobre-mi">
@@ -18,7 +26,11 @@
         <p id="parrafo-sobre-mi"> Soy Lucio Luque estudiante de la Tecnicatura Universitaria en Programación en la Universidad Tecnológica Nacional - FRGP.
             Anteriormente me encontraba cursando una Licenciatura en Ciencias de Datos en la Facultad de Ciencias Exactas y Naturales,
             descubrí que me gustaba la programación cuando tuve la oportunidad de realizar un taller de programación en Álgebra,
-            mis primeros pasos en la programación fueron con el lenguaje Haskell. </p>
+            mis primeros pasos en la programación fueron con el lenguaje Haskell.  </p>
+        <p>Actualmente, ocupo el cargo de Analista de TI en Fras-le S.A. Donde me encargo de la administración y monitorización
+             de usuarios, así como también de la instalación y mantenimiento de la infraestructura.
+             Además, soy responsable de resolver problemas en SAP B1 y de crear consultas para generar informes en Power BI.
+        </p>
     </section>
     <section id="habilidades">
         <h2>Habilidades y Aptitudes</h2>
@@ -51,7 +63,7 @@
 
     </section>
 
-    <section id="contacto">
+    <section class="animate-on-scroll" id="contacto">
         <h2>Contacto</h2>
         <div>
             <img id="contacto-img1" src="img/imagen_linkedin.png" alt="Logo de LinkedIn">
