@@ -1,16 +1,9 @@
-body {
+  body {
     font-family: Consolas, monospace;
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
     font-size: 16px;
-  }
-  
-  h1 {
-    background: linear-gradient(to right, white,whitesmoke,gray);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 2.25rem;
   }
 
   header {
@@ -113,13 +106,9 @@ body {
   }
 
   #yo {
-    max-width: 50%; /* Cambia el ancho de la imagen según tus preferencias */
     height: auto;
-    border-radius: 30%; /* Hace que el borde de la imagen sea circular */
-    float: right; /* Hace que la imagen flote hacia la derecha */
+    border-radius: 30%; 
+    float: right; 
     margin-left: 0px;
-    margin-top: 10px; /* Añade un margen a la izquierda para separar la imagen del texto */
-  }
-  #parrafo-sobre-mi{
-   flex = 1;
+    margin-top: 10px;
   }
