@@ -14,7 +14,11 @@ section {
 
 section:hover {
   background-color: #d9d9d9;
-  opacity: 3;
+}
+
+#principal:hover{
+  transition: color 0.3s ease;
+  color: #ffd700;
 }
 
 .menu {
@@ -33,10 +37,12 @@ section:hover {
   text-decoration: none; /* Eliminar subrayado predeterminado */
   margin-right: 20px; /* Espaciado entre enlaces */
   transition: color 0.3s ease; /* Transición suave para el color */
+  margin-left: 10px;
 }
 
 .menu a:hover {
-  color: #ffd700; /* Cambiar color al pasar el mouse */
+  color: #ffd700;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #header-principal {
@@ -83,7 +89,7 @@ section {
 
 section:hover h2 {
   font-size: 3.40rem; /* Tamaño de fuente aumentado al hacer hover */
-  transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de fuente */
+  transition: font-size 0.3s ease;
 }
 
 #proyectos a {
@@ -122,6 +128,11 @@ section:hover h2 {
   margin-right: 70px;
   float: right;
   margin-top: 200px;
+}
+
+#yo:hover{
+  transition: 0.3s ease;
+  transform: scale(1.05);
 }
 
 #habilidades h2 {
