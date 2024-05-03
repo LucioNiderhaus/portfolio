@@ -8,7 +8,13 @@
 
   section{
     min-height: 700px;
+    background-color: #f2f2f2; /* Color de fondo normal */
+    transition: background-color 0.3s ease; /* Transición suave */
   }
+
+  section:hover {
+   background-color: #d9d9d9;
+   }
 
   .menu{
     font-family: Consolas, monospace;
@@ -18,28 +24,50 @@
     text-align: left;
  }
 
- .menu span:hover {
-  color: whitesmoke; 
-  }
+ .menu a {
+  font-family: Consolas, monospace;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-decoration: none; /* Eliminar subrayado predeterminado */
+  margin-right: 20px; /* Espaciado entre enlaces */
+  transition: color 0.3s ease; /* Transición suave para el color */
+}
 
-  #header-principal{
-    position: sticky;
+.menu a:hover {
+  color: #ffd700; /* Cambiar color al pasar el mouse */
+}
+
+#header-principal{
     top: 0;
     background-color: #333;
     z-index: 100; 
-  }
+}
 
-  header {
+header {
     background-color: #333;
     color: #fff;
     padding: 3px;
     font-size: 1.25rem;
     text-align: center;
+}
+  
+p:hover{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   }
-
+ 
   header h1{
     text-align: right;
     margin-right: 100px;
+  }
+
+  h2{
+    font-size: 3.30rem;
+    transition: font-size 0.3s ease;
+  }
+
+  h2:hover{
+    font-size: 3.40rem;
   }
 
   #proyectos,
@@ -52,8 +80,30 @@
     padding: 30px;
   }
   
+  section:hover h2 {
+    font-size: 3.40rem; /* Tamaño de fuente aumentado al hacer hover */
+    transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de fuente */
+  }
+
+  #proyectos a{
+  font-family: Consolas, monospace;
+  color: #fff;
+  background-color: #333;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-decoration: none; /* Eliminar subrayado predeterminado */
+  margin-right: 20px; /* Espaciado entre enlaces */
+  transition: color 0.3s ease; 
+  }
+  
+  #proyectos a:hover{
+    
+    color: #ffd700; /* Cambiar color al pasar el mouse */
+  }
+
   #sobre-mi h2{
-    font-size: 3.55rem;
     text-align: left;
     margin-left: 140px;
     
@@ -76,9 +126,7 @@
   }
 
   #habilidades h2{
-    
     text-align: center;
-    margin-left: 140px;
   }
 
   .habilidad {
@@ -125,11 +173,25 @@
     width: 100%;
   }
   
+  footer a{
+    font-family: Consolas, monospace;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+  }
+  footer a:hover{
+    color: #ffd700; 
+  }
   #pie-final {
     font-size: 0.8125rem;
   }
   
+
   #contacto {
+    min-height: 400px;
     font-size: 1.25rem;
   }
   #contacto div {
@@ -137,6 +199,18 @@
     align-items: center;
   }
   
+  #contacto p {
+    font-family: Consolas, monospace;
+    color: #333; /* Color de texto */
+    font-size: 1.25rem; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el texto */
+    margin-bottom: 10px; /* Espaciado inferior */
+    transition: color 0.3s ease; /* Transición suave para el color */
+  }
+  
+  #contacto p:hover {
+    color: #ffd700; /* Cambiar color al pasar el mouse */
+  }
   #contacto-img1 {
     margin-right: 15px;
     margin-left: 15px;
