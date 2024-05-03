@@ -1,33 +1,34 @@
-  body {
-    font-family: Consolas, monospace;
-    background-color: whitesmoke;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-  }
+body {
+  font-family: Consolas, monospace;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
 
-  section{
-    min-height: 700px;
-    background-color: #f2f2f2; /* Color de fondo normal */
-    transition: background-color 0.3s ease; /* Transición suave */
-  }
+section {
+  min-height: 700px;
+  background-color: #f2f2f2; /* Color de fondo normal */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
 
-  section:hover {
-   background-color: #d9d9d9;
-   }
+section:hover {
+  background-color: #d9d9d9;
+  opacity: 3;
+}
 
-  .menu{
-    font-family: Consolas, monospace;
-    color: #fff;
-    font-size: 1.25rem;
-    cursor: pointer;
-    text-align: left;
- }
-
- .menu a {
+.menu {
   font-family: Consolas, monospace;
   color: #fff;
   font-size: 1.25rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.menu a {
+  font-family: Consolas, monospace;
+  color: #fff;
+  font-size: 1.75rem;
   cursor: pointer;
   text-decoration: none; /* Eliminar subrayado predeterminado */
   margin-right: 20px; /* Espaciado entre enlaces */
@@ -38,54 +39,54 @@
   color: #ffd700; /* Cambiar color al pasar el mouse */
 }
 
-#header-principal{
-    top: 0;
-    background-color: #333;
-    z-index: 100; 
+#header-principal {
+  top: 0;
+  background-color: #333;
+  z-index: 100;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 3px;
-    font-size: 1.25rem;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 3px;
+  font-size: 1.25rem;
+  text-align: center;
 }
-  
-p:hover{
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  }
- 
-  header h1{
-    text-align: right;
-    margin-right: 100px;
-  }
 
-  h2{
-    font-size: 3.30rem;
-    transition: font-size 0.3s ease;
-  }
+p:hover {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
 
-  h2:hover{
-    font-size: 3.40rem;
-  }
+header h1 {
+  text-align: right;
+  margin-right: 100px;
+}
 
-  #proyectos,
-  #habilidades {
-    text-align: center;
-    font-size: 1.75rem;
-  }
-  
-  section {
-    padding: 30px;
-  }
-  
-  section:hover h2 {
-    font-size: 3.40rem; /* Tamaño de fuente aumentado al hacer hover */
-    transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de fuente */
-  }
+h2 {
+  font-size: 3.30rem;
+  transition: font-size 0.3s ease;
+}
 
-  #proyectos a{
+h2:hover {
+  font-size: 3.40rem;
+}
+
+#proyectos,
+#habilidades {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+section {
+  padding: 30px;
+}
+
+section:hover h2 {
+  font-size: 3.40rem; /* Tamaño de fuente aumentado al hacer hover */
+  transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de fuente */
+}
+
+#proyectos a {
   font-family: Consolas, monospace;
   color: #fff;
   background-color: #333;
@@ -95,131 +96,169 @@ p:hover{
   cursor: pointer;
   text-decoration: none; /* Eliminar subrayado predeterminado */
   margin-right: 20px; /* Espaciado entre enlaces */
-  transition: color 0.3s ease; 
-  }
-  
-  #proyectos a:hover{
-    
-    color: #ffd700; /* Cambiar color al pasar el mouse */
-  }
+  transition: color 0.3s ease;
+}
 
-  #sobre-mi h2{
-    text-align: left;
-    margin-left: 140px;
-    
-  }
-  
-  #sobre-mi p{
-    float: left;
-    width: 70%;
-    margin-left: 70px;
-    margin-right: 30px;
-    font-size: 1.75rem;
-  }
-  
-  #yo {
-    height: auto;
-    border-radius: 30%;
-    margin-right: 70px; 
-    float: right; 
-    margin-top: 200px;
-  }
+#proyectos a:hover {
+  color: #ffd700; /* Cambiar color al pasar el mouse */
+}
 
-  #habilidades h2{
-    text-align: center;
-  }
+#sobre-mi h2 {
+  text-align: left;
+  margin-left: 140px;
+}
 
-  .habilidad {
-    margin-top: 20px;
-  }
-  
-  .habilidad h3 {
-    font-size: 1.125rem;
-    margin-bottom: 10px;
-  }
-  
-  .habilidad1 p {
-    margin: 25px 0;
-    text-align: left;
-    margin-left: 40%;
-  }
-  
-  .columnas {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .columnas > div {
-    width: calc(50% - 10px);
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .proyecto {
-    margin-bottom: 20px;
-    padding: 10px;
-  }
-  
-  .proyecto h3 {
-    margin-top: 0;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 5px;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  footer a{
-    font-family: Consolas, monospace;
+#sobre-mi p {
+  float: left;
+  width: 70%;
+  margin-left: 70px;
+  margin-right: 30px;
+  font-size: 1.75rem;
+}
+
+#yo {
+  height: auto;
+  border-radius: 30%;
+  margin-right: 70px;
+  float: right;
+  margin-top: 200px;
+}
+
+#habilidades h2 {
+  text-align: center;
+}
+
+.habilidad {
+  margin-top: 20px;
+}
+
+.habilidad h3 {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+
+.habilidad1 p {
+  margin: 25px 0;
+  text-align: left;
+  margin-left: 40%;
+}
+
+.columnas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columnas > div {
+  width: calc(50% - 10px);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.proyecto {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.proyecto h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  font-family: Consolas, monospace;
   color: #fff;
   font-size: 1.25rem;
   cursor: pointer;
   text-decoration: none;
   margin-right: 20px;
   transition: color 0.3s ease;
-  }
-  footer a:hover{
-    color: #ffd700; 
-  }
-  #pie-final {
-    font-size: 0.8125rem;
-  }
-  
+}
 
-  #contacto {
-    min-height: 400px;
-    font-size: 1.25rem;
-  }
-  #contacto div {
-    display: flex;
-    align-items: center;
-  }
-  
-  #contacto p {
-    font-family: Consolas, monospace;
-    color: #333; /* Color de texto */
-    font-size: 1.25rem; /* Tamaño de fuente */
-    cursor: pointer; /* Cambiar cursor al pasar sobre el texto */
-    margin-bottom: 10px; /* Espaciado inferior */
-    transition: color 0.3s ease; /* Transición suave para el color */
-  }
-  
-  #contacto p:hover {
-    color: #ffd700; /* Cambiar color al pasar el mouse */
-  }
-  #contacto-img1 {
-    margin-right: 15px;
-    margin-left: 15px;
-  }
+footer a:hover {
+  color: #ffd700;
+}
 
-  #contacto-img2 {
-    margin-right: 0px;
-  }
+#pie-final {
+  font-size: 0.8125rem;
+}
 
+section:hover h2 {
+  font-size: 3.40rem; /* Tamaño de fuente aumentado al hacer hover */
+  transition: font-size 0.3s ease;
+}
+
+#contacto {
+  min-height: 300px;
+  max-height: 100px;
+  font-size: 1.25rem;
+  text-align: right; /* Alinear el contenido a la derecha */
+}
+
+#contacto h2{
+  margin-left: 140px;
+  text-align: left;
+}
+
+#contacto div {
+  display: flex;
+  align-items: center;
+}
+
+#contacto p {
+  font-family: Consolas, monospace;
+  color: #333; /* Color de texto */
+  font-size: 1.25rem; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el texto */
+  transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+#contacto p:hover {
+  color: #ffd700; /* Cambiar color al pasar el mouse */
+}
+
+#contacto a {
+  font-family: Consolas, monospace;
+  color: #fff;
+  background-color: #333;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 2.25rem;
+  cursor: pointer;
+  text-decoration: none; /* Eliminar subrayado predeterminado */
+  margin-right: 20px; /* Espaciado entre enlaces */
+  transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+#contacto a:hover {
+  color: #ffd700; /* Cambiar color al pasar el mouse */
+}
+
+#contacto-img1 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#contacto-img2 {
+  margin-right: 0px;
+}
+
+.contact-form {
+  max-width: 400px; /* Ancho máximo del formulario para evitar que se extienda demasiado */
+  font-size: 1.75rem;
+  margin: 0px 250px 0 auto;/* Centrar horizontalmente el formulario dentro de la sección */
+  position: relative; /* Establecer la posición relativa */
+  right: 0; /* Mantener el formulario alineado a la derecha */
+  bottom: 0; /* Mantener el formulario alineado hacia abajo */
+  top: -150px; /* Mover el formulario hacia arriba */
+}
 
 .animated {
   transition: all 0.7s ease;

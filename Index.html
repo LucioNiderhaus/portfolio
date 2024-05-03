@@ -80,17 +80,31 @@
 
     <section class="animate-on-scroll" id="contacto">
         <h2>Contacto</h2>
+        <div class="redes-sociales">
         <div>
             <img id="contacto-img1" src="img/imagen_linkedin.png" alt="Logo de LinkedIn">
-            <p>LinkedIn: </p>
-            <a href="https://www.linkedin.com/in/lucioluque/" target="_blank"> https://www.linkedin.com/in/lucioluque/</a>
+            <a href="https://www.linkedin.com/in/lucioluque/" target="_blank">LinkedIn</a>
         </div>
         <div>
             <img id="contacto-img2" src="img/imagen_github.png" alt="Logo de Github">
-            <p>Github: </p>
-            <a href="https://github.com/LucioNiderhaus" target="_blank"> https://github.com/LucioNiderhaus</a>
+            <a href="https://github.com/LucioNiderhaus" target="_blank"> Github</a>
         </div>
-    </section>
+    </div>
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </section>
 
     <footer>
         <p>&copy; 2024 Mi Portfolio. Todos los derechos reservados.</p>
